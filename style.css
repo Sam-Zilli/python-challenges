@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#editor-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 48%;
+  height: 200px;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#output {
+  background: #f0f0f0;
+  padding: 10px;
+  min-height: 50px;
+  white-space: pre-wrap;
+}

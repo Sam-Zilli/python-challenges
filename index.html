@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Code Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Python Challenge</h1>
+  <p>Complete the function to pass the test!</p>
+
+  <div id="editor-container">
+    <textarea id="locked-code" readonly>
+def add_numbers(a, b):
+    # Your code here
+</textarea>
+
+    <textarea id="user-code" placeholder="Write your 1-2 lines of code here..."></textarea>
+  </div>
+
+  <button onclick="runCode()">Run</button>
+  <pre id="output"></pre>
+
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
